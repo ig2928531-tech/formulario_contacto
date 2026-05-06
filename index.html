@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="demo-form-card">
+  <h2>Formulario de Contacto</h2>
+  <form id="formContacto">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Mensaje de confirmación -->
+  <p id="mensajeExito" style="display:none; color:green; font-weight:bold;">
+    ✅ El formulario se envió correctamente
+  </p>
+</section>
+  <script src="js/app.js"></script>
+</body>
+</html>
